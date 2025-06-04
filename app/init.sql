@@ -18,7 +18,7 @@ CREATE TABLE aluno_curso (
     id_aluno INT,
     id_curso INT,
     FOREIGN KEY (id_aluno) REFERENCES alunos(id),
-    FOREIGN KEY (id_curso) REFERENCES curso(id),
+    FOREIGN KEY (id_curso) REFERENCES curso(id)
 );
 
 INSERT INTO alunos (nome, idade) VALUES
